@@ -34,8 +34,8 @@ public class xml {
                     document = "";
                 }else if(st.contains("<maincat>") || st.contains("<subcat>")){
                     document += st;
-                    if(st.contains("Video & Online Games") || st.contains("Geography Science")
-                    || st.contains("Business & Finance") || st.contains("Cleaning")){
+                    if(st.contains("Games") || st.contains("Geography")
+                    || st.contains("Business") || st.contains("Cleaning")){
                         almacen = true;
                     }else{
                         almacen = false;
